@@ -87,6 +87,19 @@ public class VendingMachineTest {
 	public void testGetBalance(){
 		
 	}
+	
+	/**
+	 * test purchasing success and failure based on balance and item cost
+	 */
+	@Test
+	public void testMakePurchase(){
+		
+		vend2.addItem(item3, "A");
+		vend2.insertMoney(101);
+		assertTrue(vend2.makePurchase("A"));
+		
+	}
+
 
 	
 	/**
