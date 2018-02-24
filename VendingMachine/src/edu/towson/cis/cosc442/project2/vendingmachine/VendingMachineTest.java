@@ -82,6 +82,11 @@ public class VendingMachineTest {
 			//test succeeds
 		}	
 	}
+	
+	@Test
+	public void testGetBalance(){
+		
+	}
 
 	
 	/**
